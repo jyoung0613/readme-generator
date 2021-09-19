@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMd = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -14,7 +15,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'title',
-            message: 'What is teh title of your project, exactly as it appears on GitHub?',
+            message: 'What is the title of your project, exactly as it appears on GitHub?',
         },
         {
             type: 'input',
@@ -60,18 +61,16 @@ const questions = () => {
     ]);
 };
 
-// function to initialize the app
-const init = () => {
-    questions()
-        .then((answers) => writeFileAsync('./', generateMD(answers)))
-        .then(() => console.log('Successfully wrote README.md to your output folder'))
-}
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// TODO: Create a function to write README file // created file asynchronously
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    questions()
+        .then((answers) => writeFileAsync('./output/README.md', generateMD(answers)))
+        .then(() => console.log('Successfully wrote README.md to your output folder'))
+        .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();
