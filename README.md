@@ -1,2 +1,3 @@
-# readme-generator
-Node js application used to take user input and later generate a readme md file for your new project
+# Professional README Generator Starter Code
+
+[How to create a Professional README](./readme-guide.md)
