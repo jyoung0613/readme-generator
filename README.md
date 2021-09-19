@@ -31,4 +31,4 @@
   ## Questions
   GitHub: [jyoung0613](https://github.com/jyoung0613).  
 
-  For inquiries, please contact jwyoung0613@gmail.com.
+  For inquiries, please contact jwyoung0613@gmail.com.    :slightly_smiling_face:
