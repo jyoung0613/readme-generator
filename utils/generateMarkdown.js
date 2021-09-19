@@ -119,4 +119,4 @@ function generateMarkdown(answers) {
   For inquiries, please contact ${answers.email}.`;
 }
 
-export default generateMarkdown;
+module.exports = generateMarkdown;
