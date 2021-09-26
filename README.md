@@ -3,6 +3,9 @@
   ## Demo (video)
   https://drive.google.com/file/d/1mwXe6UR306eHw1hfmQKMc5PT7f4dxyyA/view
   [Demo](https://drive.google.com/file/d/1mwXe6UR306eHw1hfmQKMc5PT7f4dxyyA/view)
+  ![2021-09-26 (1)](https://user-images.githubusercontent.com/87405768/134822729-7d5f3fd6-a838-47a9-a3ca-866c4c936d1d.png)
+  ![2021-09-26 (2)](https://user-images.githubusercontent.com/87405768/134822736-0a08dbc8-c0e0-4b12-85e6-0544b68135d6.png)
+  ![2021-09-26 (3)](https://user-images.githubusercontent.com/87405768/134822739-77a5ebdd-28dd-4c15-8c64-795f65163de9.png)
 
   [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
