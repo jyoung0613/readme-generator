@@ -29,7 +29,7 @@
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
   ## Tests
-  #Once the code was there to generate the readme file.  
+  * Once the code was there to generate the readme file.  
   * I tested the generation of the file with some simple text.  
   * Then I proceeded to test each question as they were added to verify that the question was coming up and that the user could add their input and have it display on the output     file.
 
