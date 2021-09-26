@@ -15,6 +15,9 @@
 
   ## Installation
   1. Clone this README-Generator repo to your machine. 
+  2. Open the repo in your terminal.
+  3. Run ```npm init```
+  4. Run ```npm init``` 
 
   ## Usage
   #Open README-Generator (now stored on your machine) in your terminal. 
